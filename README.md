@@ -8,7 +8,7 @@ Utiliza fernet para la codificar los archivos haciendo que sea necesaria la llav
 Genera una llave(laLLave.py) que luego ganimard.py utilizar para desencriptarlos.
 ganimard.py pedirá una contraseña también para poder realizar su acción (gentleman-cambrioleur)
 
-
+Recorre de forma recursiva los directorio inferiores cifrando todos los archivos que se encuentre. Utilización os.walk y os.path.join
 
 Ejecución: python3 Lupin.py
 Ejecución: python3 ganimard.py

@@ -22,7 +22,7 @@ gentleman-cambrioleur
 ### Ejecución:
 ```bash
 python3 ganimard.py
-
+```
 
 ## Uso
 

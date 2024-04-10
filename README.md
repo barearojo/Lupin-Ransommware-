@@ -1,4 +1,4 @@
-# Lupin y Ganimard - Herramientas de Encriptación y Desencriptación
+# Lupin y Ganimard - Herramientas de Encriptación y Desencriptación 💻🔒
 
 Este proyecto consiste en dos scripts escritos en Python, Lupin y Ganimard, que se utilizan para cifrar y descifrar archivos respectivamente. El propósito principal de estos scripts es proporcionar una demostración básica de un ransomware y su herramienta asociada para la recuperación de archivos.
 
